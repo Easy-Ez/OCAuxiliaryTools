@@ -11,6 +11,8 @@ on:
       - '*.pro'
       - '**'
       - '.github/workflows/windows.yml' 
+  # 添加手动触发支持
+  workflow_dispatch:
 jobs:
   build:
     name: Build
